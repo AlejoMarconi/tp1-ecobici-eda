@@ -1,0 +1,26 @@
+# Datos descargados en runtime (no versionar, se bajan del CDN del GCBA)
+*.csv
+*.zip
+*.parquet
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
